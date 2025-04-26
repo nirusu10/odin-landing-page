@@ -212,3 +212,14 @@ header {
   border-radius: 8px;
   background-color: var(--bg-accent);
 }
+
+/* Footer */
+footer {
+  background-color: var(--bg-dark);
+  color: var(--text-secondary);
+  padding-block: 16px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: var(--text-secondary);
+}
