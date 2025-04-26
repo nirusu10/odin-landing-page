@@ -184,3 +184,31 @@ header {
   font-weight: 700;
   text-align: end;
 }
+
+/* Call to action */
+
+.cta {
+  padding: 64px;
+}
+
+.cta-content {
+  background-color: var(--bg-accent);
+  color: var(--text);
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.cta-content h2 {
+  font-size: 24px;
+}
+
+.cta button {
+  font-weight: 700;
+  padding: 8px 24px;
+  color: var(--text);
+  border: 2px solid var(--text);
+  border-radius: 8px;
+  background-color: var(--bg-accent);
+}
